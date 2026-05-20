@@ -1,10 +1,10 @@
-# Olist E-Commerce — End-to-End Analysis
+# 🛒 Olist E-Commerce — End-to-End Analysis
 
 > A full data analysis pipeline on the Brazilian E-Commerce Public Dataset by Olist — from raw data to business insights, using Python and Power BI.
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 
 This project transforms raw transactional data from 9 relational tables into actionable business insights across two tools, each handling a different layer of the analysis pipeline.
 
@@ -15,7 +15,7 @@ This project transforms raw transactional data from 9 relational tables into act
 
 ---
 
-## Workflow
+## 🔄 Workflow
 
 ```
 Raw Data (9 CSV files)
@@ -29,7 +29,7 @@ Raw Data (9 CSV files)
 
 ---
 
-## Python — What Was Done
+## 🐍 Python — What Was Done
 
 ### 1. Data Integration
 - Merged 6 datasets using **Left Joins** to preserve all orders, including those with missing details
@@ -77,7 +77,7 @@ Segmented customers into 6 behavioral groups using Recency, Frequency, and Monet
 
 ---
 
-## Power BI — Dashboard
+## 📊 Power BI — Dashboard
 
 A 5-page interactive dashboard built on a **Star Schema** data model with custom DAX measures.
 
@@ -99,39 +99,39 @@ A 5-page interactive dashboard built on a **Star Schema** data model with custom
 
 ### Dashboard Pages
 
-#### Home
+#### 🏠 Home
 Landing page with navigation cards to all 4 analysis pages.
 
-#### Sales
+#### 📈 Sales
 - **KPIs:** Total Revenue · Total Orders · AOV · Total Customers
 - **Visuals:** Monthly Revenue Trend · Top Categories by Revenue · Orders by Day · Orders by Hour · Payment Methods
 - **Slicers:** Date Range · Category · State · Payment Type
 
-#### Shipping
+#### 🚚 Shipping
 - **KPIs:** Delivery Rate · Late Deliveries % · Avg Delivery Time · Avg Freight Value
 - **Visuals:** Orders by State (Map) · Delivery Time Distribution · On-time vs Late by State · Delivery Rate Gauge
 - **Slicers:** Date Range · State · Order Status · Delivery Type
 
-#### Customer Experience
+#### ⭐ Customer Experience
 - **KPIs:** Avg Review Score · 5-Star % · 1-Star % · Total Reviews
 - **Visuals:** Review Score Distribution · Avg Score by Category · Avg Delivery Time by Review Score · Review Score Gauge
 - **Slicers:** Date Range · Review Score · Category
 
-#### RFM Segmentation
+#### 🎯 RFM Segmentation
 - **KPIs:** Champions · Loyal Customers · At Risk · Lost
 - **Visuals:** Customers per Segment · Segment Distribution (Donut) · Avg Monetary per Segment · Avg Recency per Segment
 - **Slicers:** Segment · Recency Range · Monetary Range
 
 ### Features
--  Custom Tooltips on key visuals
--  Drill-through on Categories, Segments, and States
--  Bookmark-based navigation between pages
--  Cross-page filtering via slicers
--  Consistent color palette across all pages
+- ✅ Custom Tooltips on key visuals
+- ✅ Drill-through on Categories, Segments, and States
+- ✅ Bookmark-based navigation between pages
+- ✅ Cross-page filtering via slicers
+- ✅ Consistent color palette across all pages
 
 ---
 
-## Design
+## 🎨 Design
 
 Custom color palette applied consistently across all pages:
 
@@ -145,7 +145,15 @@ Custom color palette applied consistently across all pages:
 
 ---
 
-## Repository Structure
+## 📥 Download Dashboard
+
+> The Power BI file (.pbix) is hosted on Google Drive due to file size.
+
+[⬇️ Download Power BI Dashboard (.pbix)](https://drive.google.com/file/d/1Vmp7xYnGCdwGosZe99vaBHHg1WMbbOxW/view?usp=sharing)
+
+---
+
+## 📁 Repository Structure
 
 ```
 ├── Olist-ECommerce-End-to-End-Analysis.ipynb   # Python notebook (Kaggle)
@@ -156,14 +164,14 @@ Custom color palette applied consistently across all pages:
 
 ---
 
-## Built With
+## 🛠️ Built With
 
 - **Python** — Pandas, NumPy, Plotly
 - **Power BI** — Star Schema, DAX, Interactive Dashboards
 
 ---
 
-## Links
+## 🔗 Links
 
 - 📓 **Kaggle Notebook:** [Open in Kaggle](https://www.kaggle.com/code/abdallahahmed701/olist-ecommerce-end-to-end-analysis)
 - 💼 **LinkedIn:** [Abdallah Ahmed](https://www.linkedin.com/in/abdallah-ahmed-16aa50290)
